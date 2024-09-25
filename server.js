@@ -11,7 +11,8 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
+    //origin: "http://localhost:5173", // Replace with your frontend URL
+    origin: "https://inventory-app-mauve-five.vercel.app/" || "*",
     credentials: true,
   })
 );
