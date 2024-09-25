@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     //origin: "http://localhost:5173", // Replace with your frontend URL
-    origin: "https://inventory-app-mauve-five.vercel.app/",
+    origin: "https://inventory-app-mauve-five.vercel.app",
     credentials: true,
   })
 );
